@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Cloning dependencies"
 git clone --depth=1 https://github.com/kdrag0n/proton-clang  clang
-git clone --depth=1 https://github.com/RooGhz720/AnyKernel3 -b another AnyKernel
+git clone --depth=1 https://github.com/RooGhz720/AnyKernel3 -b lavender AnyKernel
 echo "Done"
 IMAGE=$(pwd)/out/arch/arm64/boot/Image.gz-dtb
 TANGGAL=$(date +"%F-%S")
